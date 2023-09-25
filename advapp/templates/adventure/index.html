@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>full stack</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body id="b1">
+   
+    <header>
+        <a  class="adv" href ="./index.html"><img id="logo"  src="https://i.ibb.co/XkJnhjk/mou.png" alt="full stack" /> </a>
+        
+        <nav>  
+            <a class="Nav-link" href="">Home</a>
+            <a class="Nav-link" href="">Login</a>
+            <a class="Nav-link" href="">Registration</a>
+
+        </nav>
+    </header>
+    <section id="Eventsec">
+        {% for ride in rides %}
+            <a class="adv" href="{% url 'details' ride.adv_id %}">
+            <div>
+                <h2>{{ride.ride_title}}</h2>
+                <h3>{{ride.location}}</h3>
+                <h4>{{ride.date}}</h4>
+            </div>
+            </a>
+        {% endfor %}
+        
+        
+    </section>
+    
+    <footer class="">
+        
+        <p>©2023 Event Registration System</p>
+
+
+    </footer>
+
+    
+</body>
+</html>

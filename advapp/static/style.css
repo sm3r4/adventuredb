@@ -1,0 +1,179 @@
+h2{
+    color: rgb(156, 107, 23);
+}
+header{
+    background-color:rgba(110, 95, 113,0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#b1{
+    background-image: url(https://www.visitsaudi.com/content/dam/saudi-tourism/media/activities-and-attractions-categories/Adventure_Activities_Hero_Banner.jpg);
+    background-color: rgb(12, 12, 9);
+    
+    margin:0;
+    padding:0;
+    font-size: medium;
+    font-family: 'Lora', serif;
+
+}
+#b2{
+    background-image: url(https://www.nativeplanet.com/img/2023/06/bugy3-1685953191.jpg);
+    background-color: rgb(12, 12, 9);
+    
+    margin:0;
+    padding:0;
+    font-size: medium;
+    font-family: 'Lora', serif;
+
+
+}
+#b3{
+    background-image: url(https://wallpapercave.com/wp/wp2013429.jpg);
+    background-size: cover;
+    background-color: rgb(44, 76, 129);
+    
+    margin:0;
+    padding:0;
+    font-size: medium;
+    font-family: 'Lora', serif;
+
+
+}
+#b4{
+    background-image: url(https://wallpapercave.com/wp/wp4851364.jpg);
+    background-size: cover;
+    background-color: rgb(44, 76, 129);
+    
+    margin:0;
+    padding:0;
+    font-size: medium;
+    font-family: 'Lora', serif;
+
+
+}
+div{
+    background-color:rgba(70,39,34,100);
+    color: darkgoldenrod;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgb(60,58,56,1);
+    border-radius: 10px;
+    text-decoration: none;
+}
+div a{
+    background-color: darkslategray;
+    color:aquamarine;
+    text-decoration:none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    gap: 20px
+}
+.Nav-link{
+    color: white;
+    text-decoration:none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#logo{
+    width: 150px;
+    
+    height:100px;
+}
+.adv{
+    text-decoration: none;
+}
+#Eventsec{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    background-color:rgb(97, 93, 87);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    color: rgb(66, 2, 2);
+    
+
+}
+.bung{
+    color: rgb(18, 15, 7);
+    width: 800px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgb(60,58,56,1);
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.sky{
+    
+        background-color: #0b40616e;
+        color: rgb(27, 25, 19);
+        width: 800px;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 6px 20px rgb(60,58,56,1);
+        border-radius: 10px;
+        justify-content: center;
+    
+    
+}
+.zip{
+    background-color: #1037186e;
+    color: rgb(18, 15, 7);
+    width: 800px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgb(60,58,56,1);
+    border-radius: 10px;
+    justify-content: center;
+
+}
+#f1
+{
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+#f2
+{
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+#f3
+{
+    background-color: #436e56;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+input[type="submit"]{
+    width: 10%;
+    color: black;
+    background-color: rgba(65, 35, 7, 0.37);
+    border-radius: 10px;
+    
+
+
+}
