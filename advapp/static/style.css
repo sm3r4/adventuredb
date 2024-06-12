@@ -94,6 +94,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     overflow-x: auto;
+    justify-content: center;
 }
 footer{
     background-color:rgb(97, 93, 87);
