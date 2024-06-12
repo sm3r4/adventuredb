@@ -92,8 +92,8 @@ nav{
 }
 #Eventsec{
     display: flex;
-    justify-content: center;
-    
+    flex-wrap: wrap;
+    overflow-x: auto;
 }
 footer{
     background-color:rgb(97, 93, 87);
